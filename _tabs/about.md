@@ -8,11 +8,16 @@ I work with maps, data, and Earth Observation tools to understand landscapes, su
 
 I’m especially interested in:
 Climate adaptation and resilience
+
 Sustainable food systems
+
 Nature-based solutions
+
 Data validation and responsible AI
+
 Using MEL frameworks to measure real-world impact
 
 This space documents my learning, projects, reflections, and experiments as I grow in GIS, AI, and data driven environmental work.
+
 I believe good data tells honest stories.
 And honest stories shape better futures.
