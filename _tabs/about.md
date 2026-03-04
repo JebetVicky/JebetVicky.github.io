@@ -7,15 +7,16 @@ Hi, I am a GIS & Remote Sensing Analyst working at the intersection of geospatia
 I work with maps, data, and Earth Observation tools to understand landscapes, support regenerative land systems, and turn complex environmental data into clear, actionable insights. My journey into GIS grew from curiosity about how space, climate, and communities connect and how better data can lead to better decisions.
 
 I’m especially interested in:
-Climate adaptation and resilience
 
-Sustainable food systems
+   Climate adaptation and resilience
 
-Nature-based solutions
+   Sustainable food systems
 
-Data validation and responsible AI
+    Nature-based solutions
 
-Using MEL frameworks to measure real-world impact
+   Data validation and responsible AI
+
+   Using MEL frameworks to measure real-world impact
 
 This space documents my learning, projects, reflections, and experiments as I grow in GIS, AI, and data driven environmental work.
 
