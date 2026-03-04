@@ -1,5 +1,5 @@
 ---
-title: about
+'title: about'
 icon:fas fa-user
 ---
 Hi, I am a GIS & Remote Sensing Analyst working at the intersection of geospatial data, climate resilience, and Monitoring, Evaluation & Learning (MEL).
