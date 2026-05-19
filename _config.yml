@@ -1,6 +1,4 @@
-# The Site Configuration
-
-# Import the theme
+# Theme
 theme: jekyll-theme-chirpy
 
 # Site language and timezone
@@ -8,103 +6,47 @@ lang: en
 timezone: Africa/Nairobi
 
 # SEO settings
-title: Jebet Vicky
+title: Vicky Jebet
 tagline: GIS | Remote Sensing | MEL | Data Analysis
-description: >-
-  Sharing my work at the intersection of geospatial data, climate resilience, MEL, and AI-driven environmental insights.
-
-# Site URL
+description: Geospatial analyst and MEL specialist working at the intersection of climate resilience, carbon projects, and data-driven impact.
 url: "https://JebetVicky.github.io"
+baseurl: ""
 
 # Social accounts
 github:
   username: JebetVicky
-
-X:
+twitter:
   username: JebetVicky1
-
 social:
   name: Vicky Jebet
   email: jebetv15@gmail.com
-  links:
-    - https://x.com/JebetVicky1
-    - https://github.com/JebetVicky
-    - https://www.linkedin.com/in/vicky-jebet/
+links:
+  - https://twitter.com/JebetVicky1
+  - https://github.com/JebetVicky
+  - https://www.linkedin.com/in/vicky-jebet/
 
-# Web analytics (optional, fill if available)
-analytics:
-  google:
-    id: ""
-  goatcounter:
-    id: ""
-  umami:
-    id: ""
-    domain: ""
-  matomo:
-    id: ""
-    domain: ""
-  cloudflare:
-    id: ""
-  fathom:
-    id: ""
-
-# Page views provider
-pageviews:
-  provider: goatcounter
-
-# Theme color scheme
-theme_mode: light
-
-# CDN for media resources
-cdn: ""
-
-# Sidebar avatar (optional)
+# Avatar (optional – add an image to assets/img/avatar.png)
 avatar: ""
 
-# Social preview image for SEO (optional)
-social_preview_image: ""
+# Theme mode (light, dark, or empty for system preference)
+theme_mode: light
 
 # Table of contents in posts
 toc: true
 
-# Comments
+# Pagination
+paginate: 10
+
+# Comments (disabled for now)
 comments:
-  provider: utterances
-  utterances:
-    repo: JebetVicky/blog-comments
-    issue_term: pathname
-    input_position: bottom
-    lang: en
-    reactions_enabled: true
+  provider: ""
 
-# Self-hosted assets
-assets:
-  self_host:
-    enabled: false
-    env: ""
-
-# Progressive Web App
+# PWA
 pwa:
   enabled: true
   cache:
     enabled: true
     deny_paths: []
-
-# Pagination
-paginate: 10
-baseurl: ""
-
-# Kramdown and syntax highlighting
-kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
 
 # Collections
 collections:
@@ -119,13 +61,9 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
+      comments: false
       toc: true
       permalink: /posts/:title/
-  - scope:
-      path: _drafts
-    values:
-      comments: false
   - scope:
       path: ""
       type: tabs
@@ -137,34 +75,12 @@ defaults:
 sass:
   style: compressed
 
-# HTML compression
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
-# Exclusions
+# Excludes
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - purgecss.js
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "package.json"
   - "*.config.js"
-  - "package*.json"
-
-# Jekyll archives
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
