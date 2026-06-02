@@ -1,7 +1,4 @@
 # Vicky Jebet – Geospatial Analyst / MEL Specialist
-
-🌍 **Live portfolio:** [JebetVicky.github.io](https://JebetVicky.github.io)
-
 **Focus areas:**  
 - Food Systems
 - Environmental Monitoring
