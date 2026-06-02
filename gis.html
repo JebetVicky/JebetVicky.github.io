@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GIS Portfolio | Vicky Jebet</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      color: #2d2d2d;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    .back { font-size: 0.9rem; margin-bottom: 30px; }
+    .back a { color: #2a7ae2; text-decoration: none; }
+    .back a:hover { text-decoration: underline; }
+    .project { border-top: 1px solid #ddd; padding: 40px 0; }
+    .project h2 { font-size: 1.3rem; margin-bottom: 6px; }
+    .meta { font-size: 0.85rem; color: #888; margin-bottom: 16px; }
+    .project img {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+    .tags span {
+      display: inline-block;
+      background: #f0f4f8;
+      border-radius: 3px;
+      padding: 3px 10px;
+      font-size: 0.8rem;
+      margin: 3px 3px 3px 0;
+      color: #444;
+    }
+    .caption {
+      font-size: 0.85rem;
+      color: #666;
+      font-style: italic;
+      margin-top: -12px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="back">← <a href="index.html">Back to Home</a></div>
+
+  <h1>GIS & Remote Sensing Portfolio</h1>
+  <p>Geospatial analysis and Earth observation work spanning land cover mapping,
+  early warning systems, and climate adaptation across East Africa.</p>
+
+  <!-- PROJECT 1 -->
+  <div class="project">
+    <h2>Land Use & Land Cover Mapping for Climate Adaptation — South Sudan</h2>
+    <div class="meta">ICPAC / GMES & Africa · SUSTAIN Project · 2023–2024</div>
+
+    <p>South Sudan faces recurring droughts and floods affecting millions of people.
+    As part of the SUSTAIN project under ICPAC and GMES & Africa, I contributed to
+    building a multi-temporal land cover dataset covering the entire country —
+    with focused analysis on Terekeka and Kapoeta — to feed into hazard,
+    vulnerability, and risk maps for humanitarian planning and early warning.</p>
+
+    <img src="assets/img/south_sudan_lulc_2024.png"
+         alt="South Sudan Land Use Land Cover Map 2024"/>
+    <p class="caption">South Sudan LULC 2024 — seven land cover classes derived from
+    Sentinel-2 and Landsat imagery using supervised ML classification in Google Earth Engine.
+    The blue corridor through the centre is the Sudd wetland, the largest in Africa.</p>
+
+    <p><strong>What I did:</strong> Image selection and mosaicking across four time periods
+    (1991, 2001, 2021, 2024) using Landsat TM/ETM+/OLI and Sentinel-2. I generated
+    vegetation seasonality profiles to guide cloud-free image acquisition, ran supervised
+    classification using CART, Random Forest, and SVM classifiers in GEE, applied NDVI
+    and NDWI spectral indices to improve class separability, and conducted accuracy
+    assessment using a confusion matrix validated against PlanetScope reference data.</p>
+
+    <p><strong>Output:</strong> Seven land cover classes — treecover, grassland, cropland,
+    shrubland, bareland, built-up areas, and waterbody — feeding into ICPAC's impact-based
+    forecasting and emergency response products for South Sudan.</p>
+
+    <div class="tags">
+      <span>Google Earth Engine</span>
+      <span>QGIS</span>
+      <span>Landsat</span>
+      <span>Sentinel-2</span>
+      <span>Random Forest</span>
+      <span>NDVI / NDWI</span>
+      <span>Land Cover Classification</span>
+      <span>Early Warning Systems</span>
+    </div>
+  </div>
+
+  <!-- MORE PROJECTS COMING -->
+  <div class="project">
+    <h2>More projects coming soon</h2>
+    <div class="meta">In progress</div>
+    <p>Additional GIS and remote sensing work will be added here, including
+    regional resilience monitoring and carbon MRV projects.</p>
+  </div>
+
+</body>
+</html>
